@@ -1,8 +1,13 @@
 import React from 'react';
 import { ComponentWrapper } from './index.styled';
+import SwitchComponent from '../SwitchComponent/switchComponent';
 
 const TestComponent: React.FC = () => {
-  return <ComponentWrapper>Place to do some things</ComponentWrapper>;
+  return (
+    <ComponentWrapper>
+      <SwitchComponent />
+    </ComponentWrapper>
+  );
 };
 
 export default TestComponent;
